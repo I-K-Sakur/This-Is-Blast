@@ -560,10 +560,6 @@ MonoBehaviour:
   yellowBlockPrefab: {fileID: 7721755642550447891, guid: a5fabdef1524daf4483223bac4ccf440, type: 3}
   redBlockPrefab: {fileID: 1876488616816480854, guid: 568112b0810553f459b6aa5744186c6b, type: 3}
   blueBlockPrefab: {fileID: 163474975086680950, guid: 690e36d7b0dea9e4898039b2c2e12dd3, type: 3}
-  redBlockPrefabHigher: {fileID: 1876488616816480854, guid: c52f029002aa89e4b86714d565e9927c, type: 3}
-  greenBlockPrefabHigher: {fileID: 2431762510503573218, guid: d04f07e7bfbd92d43b0b71fd503be80f, type: 3}
-  blueBlockPrefabHigher: {fileID: 163474975086680950, guid: c11512241fe2dbe4a991769265a191f9, type: 3}
-  yellowBlockPrefabHigher: {fileID: 7721755642550447891, guid: c1e8de2754284e645abaf9f19d3a808a, type: 3}
   currentLevel: {fileID: 11400000, guid: b37d2f544becf9148b542daa3b327c82, type: 2}
   verticalOffset: 2
   levelCounter: {fileID: 11400000, guid: 7a19a2ead724b154db039989c79cb9e8, type: 2}
@@ -732,6 +728,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1879058197}
     m_Modifications:
+    - target: {fileID: 114860928380131346, guid: 1d4619905889aaa448564d635fa9a2d2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 114860928380131346, guid: 1d4619905889aaa448564d635fa9a2d2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.49
+      objectReference: {fileID: 0}
     - target: {fileID: 1190013051521645591, guid: 1d4619905889aaa448564d635fa9a2d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1155,10 +1159,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 738415003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 0, y: 100}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 1080, y: 100}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &254083499
 MonoBehaviour:
@@ -1269,7 +1273,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.335
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1284,7 +1288,7 @@ Canvas:
   m_GameObject: {fileID: 306632541}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -2583,7 +2587,7 @@ Transform:
   m_GameObject: {fileID: 736478399}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.528387, y: -3.0301135, z: 349.47742}
+  m_LocalPosition: {x: -3.528387, y: -1057, z: 349.47742}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2734,9 +2738,9 @@ RectTransform:
   m_Father: {fileID: 306632542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 203.59998, y: -188.49991}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -440, y: -202}
+  m_SizeDelta: {x: -1106, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750742701
 MonoBehaviour:
@@ -3053,6 +3057,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1879058197}
     m_Modifications:
+    - target: {fileID: -443835872029695350, guid: 27ac2bad43a8fd440bd69a53955d1192, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -443835872029695350, guid: 27ac2bad43a8fd440bd69a53955d1192, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.49
+      objectReference: {fileID: 0}
     - target: {fileID: 3987462440952807284, guid: 27ac2bad43a8fd440bd69a53955d1192, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3481,7 +3493,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -186}
+  m_AnchoredPosition: {x: 50, y: -197}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868190628
@@ -3985,7 +3997,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 25
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5673,7 +5685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 50, y: -41}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374542344
@@ -6534,6 +6546,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1879058197}
     m_Modifications:
+    - target: {fileID: -1367027640550525784, guid: 17a1d475cc1c3f34e99eede2efcc207c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -1367027640550525784, guid: 17a1d475cc1c3f34e99eede2efcc207c, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.49
+      objectReference: {fileID: 0}
     - target: {fileID: 304288171995597086, guid: 17a1d475cc1c3f34e99eede2efcc207c, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
