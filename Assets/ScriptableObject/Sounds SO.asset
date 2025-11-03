@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1982359b2157d634a855384f7dfd4a0a, type: 3}
+  m_Name: Sounds SO
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CLICKSOUND
+    volume: 0.4
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: ab7f421ad803a894fb4f2fae8fa250a4, type: 3}
+  - name: TARGETHIT
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 459917b52688dc34096745c5a94db379, type: 3}
+  - name: WINNINGSOUND
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: f8e3f1c89e0c96f4ca567872c86c2bee, type: 3}
+  - name: BACKGROUNDMUSIC
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: f627681b85901154e87c0e439f48e716, type: 3}
