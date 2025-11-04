@@ -34,7 +34,7 @@
 
 ## 📱 Download
 
-Coming soon on **Android**.
+ **Android Version**.
 
 ---
 
@@ -43,10 +43,6 @@ Coming soon on **Android**.
 This game was entirely developed by me as a passion project to explore color-based gameplay mechanics and level progression systems using **Unity 6**.
 
 ---
-
-### 🏷️ Tags
-
-`#UnityGame` `#MadeWithUnity` `#IndieGame` `#AndroidGame` `#2DGame` `#GameDevelopment` `#ColorShooter` `#IndieDeveloper` `#Unity6` `#PuzzleGame`
 
 ### Full Gameplay Link
 https://www.youtube.com/watch?v=pwr_O5Ls9Ys
